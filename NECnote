@@ -2,4 +2,4 @@
 連接到SC主機端 telnet sc IP
 連接到POS上 net use 磁區代碼: \\POS01 \C$ cvs /user:administrator
 檔案到 D:\WORK\CC\ 下能夠將資料同步到POS端上
- ===========
+***
