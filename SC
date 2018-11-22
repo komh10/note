@@ -1,1 +1,2 @@
-
+C:\necpos\Autolog 重啟動之後自動產生autolog
+   \opos\Nec\LOGGER APBackLog 
