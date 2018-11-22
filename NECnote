@@ -1,1 +1,5 @@
-
+連接機房指令 telnet 10.2.2.18 or set-TM    測試主機10.72.120.105
+連接到SC主機端 telnet sc IP
+連接到POS上 net use 磁區代碼: \\POS01 \C$ cvs /user:administrator
+檔案到 D:\WORK\CC\ 下能夠將資料同步到POS端上
+ 
