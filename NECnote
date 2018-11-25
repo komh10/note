@@ -30,4 +30,10 @@ ST\Apchg\Ready\REPCOMPL.txt /TM AP版本相關程式之紀錄資訊
              \*pbak.dat /他機備份資料
              \BKMMDD /他機銷售資料備份目錄，其目錄下為各筆交易序號銷售資料
         \Tlog\BkMMDD /本機銷售資料備份目錄，其目錄下為各筆交易序號銷售資料
+        \SIJNL.DAT /本機與其他TM或SC之通訊連線紀錄檔，常用來調查TM出現離線訊息用
+        \control\pver.dat /紀錄當前TM AP版本
+                \Sctl /為TM AP系統程式控制檔，AP運作各項業務時，會以本檔中相對應設定值對程式做控制。調查案件中，可由其得知當下收銀機各項機能使用狀態。
+        \tran\dat stranMMDD.dat /每日銷售或交班日結帳務數據串流檔 跨日2400產生新檔 首兩碼23為交易成功
+        \Jnl /每日交易發票內容電子文字檔(MMDD:依日期命名，每日跨24:00時將生成新檔)
+        \tran\ej StranEJMMDD.dat /每日交易發票內容電子文字檔(MMDD:依日期命名，每日跨24:00時將生成新檔)
         
