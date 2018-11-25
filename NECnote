@@ -4,7 +4,7 @@
 檔案到 D:\WORK\CC\ 下能夠將資料同步到POS端上
 ***
 檔案總管連接FTP ftp:@account.IP
-進入FTP之後先打bi/h2
+*進入FTP之後先打bi
 ***
 SCtl.dat 變數對照表
 POSNum /POSNO
