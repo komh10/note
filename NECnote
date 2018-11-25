@@ -4,3 +4,30 @@
 檔案到 D:\WORK\CC\ 下能夠將資料同步到POS端上
 ***
 檔案總管連接FTP ftp:@account.IP
+進入FTP之後先打bi/h2
+***
+SCtl.dat 變數對照表
+POSNum /POSNO
+RNO    /6位取引號碼
+RctNO  /10位統一發票號碼
+ObjYYMM /統一發票號碼對象年月
+TermYYMM /統一發票號碼有效期限
+ChgDatTim /前回交班時間 2018.10.12.18:22:31
+ChgNo /昨日交班收銀員No
+ShiftDatTim /前回Shift集計時間
+ChekDatTim /前回讀帳時間
+TtlDatTim /前回日結帳時間
+***
+TM 目錄
+槽位(C):\
+necpos\Autolog \AutolgNN.lzh  /TM reboot之後自動產生的AUTOLOG檔案，解壓縮以事件檢視器檢視
+opos\Nec\LOGGER\APBackupLog.NNN /TM操作輸入紀錄(1~300) 
+ST\Apchg\Ready\REPCOMPL.txt /TM AP版本相關程式之紀錄資訊
+              \REPCTRL.txt  /TM AP版本相關程式之紀錄資訊
+              \REPFIL01.zip /TM AP版本相關程式之壓縮檔
+  \Inonwk\ /主檔配送資料夾，與其他POS傳輸用路徑 ex:2018/11/24  上午 11:07  128 IFWNFILE20181124110753.7
+  \Data\ pbkN\ /為他機銷售資料的備份資料夾，除TM1會備份所有TM的銷售資料外，其他TM皆備份其機號減1之機台資料，EX:TM2備TM1，TM3備TM2。(N:所備份之機台號碼)
+             \*pbak.dat /他機備份資料
+             \BKMMDD /他機銷售資料備份目錄，其目錄下為各筆交易序號銷售資料
+        \Tlog\BkMMDD /本機銷售資料備份目錄，其目錄下為各筆交易序號銷售資料
+        
