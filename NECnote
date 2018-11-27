@@ -36,5 +36,5 @@ ST\Apchg\Ready\REPCOMPL.txt /TM AP版本相關程式之紀錄資訊
         \tran\dat stranMMDD.dat /每日銷售或交班日結帳務數據串流檔 跨日2400產生新檔 首兩碼23為交易成功
         \Jnl /每日交易發票內容電子文字檔(MMDD:依日期命名，每日跨24:00時將生成新檔)//較為工整且分四時段能查詢
         \tran\ej StranEJMMDD.dat /每日交易發票內容電子文字檔(MMDD:依日期命名，每日跨24:00時將生成新檔) //稍微凌亂以一日為一個檔案
-        
+             \ejtl stranejmmdd.dat /小白單電子文字檔
         
